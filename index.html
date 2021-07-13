@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" />            
+    <title>HomePage</title>
+    <!-- vendor -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendor/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="vendor/WOW-master/css/animate.css">
+    <link rel="stylesheet" href="vendor/OwlCarousel/css/owl.carousel.min.css">
+    <!-- vendor -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    
+    <!-- vendor -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/WOW-master/js/wow.min.js"></script>
+    <script src="vendor/OwlCarousel/js/owl.carousel.min.js"></script>
+    <!-- vendor -->
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <!-- header-dark -->
+    <header class="header">
+        <div class="container-full">
+            <div class="row align-items-center flex-1">
+                <div class="col-auto col-md-2">
+                    <a class="logo" href="index.html">
+                        <img class="img-fluid" src="images/logo.png"> </a>
+                </div>
+                <div class="col">
+                    <div class="rxt-travel" data-rxt-travel-max="991" data-rxt-travel-appendTo="#rxtNavTravel">
+                        <div id="rxtNavWrap" class="rxt-navigation-wrap text-right">
+                            <a href="#">
+                                <i class="mobOnly-menu-close fa fa-times" aria-hidden="true"></i>
+                            </a>
+                            <div class="d-flex d-lg-block flex-column-reverse">
+                                <ul class="rxt-navigation text-left">
+                                    <li class="active">
+                                        <a class="slowMove" href="index.html">HOME</a>
+                                    </li>
+                                    <li class="has-sub">
+                                        <a class="slowMove" href="about.html">About Us</a>
+                                        <ul>
+                                            <li>
+                                                <a class="slowMove" href="about.html#our-expertise">Our Expertise</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="about.html#mission">Mission</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="about.html#vision">Vision</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub">
+                                        <a class="slowMove" href="kondesk.html">Upcoming Projects</a>
+                                        <ul>
+                                            <li>
+                                                <a class="slowMove" href="kondesk.html">KONDESK</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="koncheck.html">KONCHECK</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="konsign.html">KONSIGN</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="konveri.html">KONVERI</a>
+                                            </li>
+                                            <li>
+                                                <a class="slowMove" href="konpare.html">KONPARE</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="slowMove" href="solutions-services.html">Solutions & Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="slowMove" href="contact.html">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="rxt-nav-overlay"></a>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center mobOnly-rxt-nav-trigger-wrap">
+                    <a href="#rxtNavWrap" class="rxt-nav-trigger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="header-spacer"></div>-->
+    <div id="rxtNavTravel" class="headerOnTravel"></div>
+    
+    
+    
+    
+    <div class="Page_Container">
+        <!--=========== FullSlider ===========-->
+        <script>
+          $(document).ready(function () {
+            $("#OwlFullSlide").owlCarousel({
+              navigation: true, // Show next and prev buttons
+              slideSpeed: 300,
+              paginationSpeed: 400,
+              autoPlay: 3000,
+              singleItem: true,
+              items : 1, 
+              // "singleItem:true" is a shortcut for:
+              // items : 1, 
+              // itemsDesktop : false,
+              // itemsDesktopSmall : false,
+              // itemsTablet: false,
+              // itemsMobile : false 
+            });
+          });
+        </script>
+        <div class="container">
+          <div class="FullSlider w-100">
+            <ul id="OwlFullSlide" class="owl-carousel">
+              <li class="item">
+                <div class="SlideImages">
+                  <div class="container">
+                    <a href="#" target="_blank"><img src="images/slider1.jpg" alt="1" border="0" /></a>
+                  </div>
+                </div>
+                <div class="SlideText">
+                  <div class="container">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                    <div class="btnOuter">
+                      <a href="#" class="btn kitbut">View All</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="SlideImages">
+                  <div class="container">
+                    <a href="#" target="_blank"><img src="images/slider2.jpg" alt="1" border="0" /></a>
+                  </div>
+                </div>
+                <div class="SlideText">
+                  <div class="container">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                    <div class="btnOuter">
+                      <a href="#" class="btn kitbut">View All</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+    
+    
+        <!--featured propertie=====================-->
+        <div class="featured_propertie">
+          <div class="container">
+            <div class="row">
+              <div class="Home_tittle">
+                <h1>Featured Property</h1>
+              </div>
+              <div class="Property_cardblock row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="card">
+                    <figure>    
+                      <a href="#"><img src="images/product1.jpg" class="card-img-top"></a>    
+                    </figure>
+                    <div class="card-block">
+                      <h4 class="card-title"><a href="#">0007 </a></h4>
+                      <p class="card-text">test</p>
+                      <p class="card-text"><small class="text-muted"><span class="fa fa-map-marker"></span> 204 Aarambh
+                          Complex Nr.Petrol Pump Parle </small></p>
+                      <div class="rtsec">
+                        <span class="shareSet">
+                        </span>
+                      </div>
+                    </div>
+                    <div class="btnOuter">
+                      <a href="#" class="btn kitbut">View </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="card">
+                    <figure>    
+                      <a href="#" class="cat_homefeaturedinfo"><img src="images/product1.jpg" class="card-img-top"></a>    
+                    </figure>
+                    <div class="card-block">
+                      <h4 class="card-title"><a href="#">0007 </a></h4>
+                      <p class="card-text">test</p>
+                      <p class="card-text"><small class="text-muted"><span class="fa fa-map-marker"></span> 204 Aarambh
+                          Complex Nr.Petrol Pump Parle </small></p>
+                      <div class="rtsec">
+                        <span class="shareSet">
+                        </span>
+                      </div>
+                      <div class="w-100">
+                        <h1>Test</h1>
+                      </div>
+                    </div>
+                    <div class="btnOuter">
+                      <a href="#" class="btn kitbut">View </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="card">
+                    <figure>    
+                      <a href="#" class="cat_homefeaturedinfo"><img src="images/product1.jpg" class="card-img-top"></a>    
+                    </figure>
+                    <div class="card-block">
+                      <h4 class="card-title"><a href="#">0007 </a></h4>
+                      <p class="card-text">test</p>
+                      <p class="card-text"><small class="text-muted"><span class="fa fa-map-marker"></span> 204 Aarambh
+                          Complex Nr.Petrol Pump Parle </small></p>
+                      <div class="rtsec">
+                        <span class="shareSet">
+                        </span>
+                      </div>
+                    </div>
+                    <div class="btnOuter">
+                      <a href="#" class="btn kitbut">View </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="btnOuter">
+                    <a href="#" class="btn kitbut">View All</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--featured propertie=====================-->
+    
+    
+        <!--About Us=====================-->
+        <div class="HomeAbout">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <figure>
+                  <a href="#">
+                    <img class="card-img-top" src="images/product1.jpg">
+                  </a>
+                </figure>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="Home_tittle">
+                  <h1>About Us</h1>
+                </div>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                  has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                  type and scrambled it to make a type specimen book. </p>
+                <div class="btnOuter">
+                  <a href="#" class="btn kitbut">Read More </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--About Us=====================-->
+    
+    
+      </div>
+      <!--header End=====================-->
+      <footer class="mainfooter">
+        <div class="container">
+          <div class="row">
+            <div class="text-center w-100">
+              <ul class="ft-nav w-100">
+                <li class="d-inline-block"><a href="#">FAQ</a></li>
+                <li class="d-inline-block"><a href="#">privacy policy</a></li>
+                <li class="d-inline-block"><a href="#">Contact Us</a></li>
+              </ul>
+              <!--Copyright-->
+              <div class="footer-copyright">
+                <div class="container-fluid"> © <a href="#"> Home page </a>. 2017, All Rights Reserved </div>
+              </div>
+              <!--/.Copyright-->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--header End=====================-->
+    
+    
+      <!--Accordian=====================-->
+      <script type="text/javascript">
+        $(document).ready(function ($) {
+          $('.accordian').find('.menuheader').click(function () {
+    
+            //Expand or collapse this panel
+            $(this).next().slideToggle('fast');
+    
+            //Hide the other panels
+            $(".categoryitems").not($(this).next()).slideUp('fast');
+    
+          });
+    
+          $('.menuheader').click(function () {
+            $(this).parent().toggleClass('active').siblings().removeClass('active');
+          });
+        });
+      </script>
+      <style>
+        .accordian {
+          float: left;
+          width: 100%;
+          color: #000;
+        }
+    
+        .accordian .show_cl {
+          float: left;
+          width: 100%;
+        }
+    
+        .accordian .show_cl .menuheader {
+          float: left;
+          font-weight: normal;
+          width: 100%;
+          font-size: 16px;
+          padding: 0 0 0 18px;
+          box-sizing: border-box;
+          background: url(../images/accordian_er1.png) no-repeat left 6px !important;
+          margin-bottom: 27px;
+          cursor: pointer;
+        }
+    
+        .accordian .active .menuheader {
+          background-image: url(../images/accordian_er2.png) !important;
+          margin-bottom: 24px;
+          color: #F00;
+        }
+    
+        .accordian .show_cl .categoryitems {
+          float: left;
+          width: 100%;
+          font-size: 16px;
+          padding: 0 44px 0 18px;
+          margin-bottom: 30px;
+          line-height: 21px;
+          display: none;
+          border: 1px solid #666;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }    
+        .accordian .active .categoryitems {
+          display: block;
+        }
+
+      </style>
+      <div class="accordian">
+        <div class="show_cl active">
+          <h3 class="menuheader expandable">How can I create an account?</h3>
+          <ul class="categoryitems expandable">
+            <li>If you'd like to create an account on the site, please click on Register at the top right corner of the home
+              page and you'll be directed to the account creation. Follow the instructions and enter the necessary details
+              (name, email address, telephone number etc.) and set a password. You will need to have an account if you wish
+              to purchase goods from Creams of Nature, if you want to create your wish list, view and manage your orders and
+              leave a comment. You can access your account at any time to change, update or delete your details.</li>
+          </ul>
+        </div>
+        <div class="show_cl">
+          <h3 class="menuheader expandable">How can I create an account?</h3>
+          <ul class="categoryitems expandable">
+            <li>If you'd like to create an account on the site, please click on Register at the top right corner of the home
+              page and you'll be directed to the account creation. Follow the instructions and enter the necessary details
+              (name, email address, telephone number etc.) and set a password. You will need to have an account if you wish
+              to purchase goods from Creams of Nature, if you want to create your wish list, view and manage your orders and
+              leave a comment. You can access your account at any time to change, update or delete your details.</li>
+          </ul>
+        </div>
+        <div class="show_cl">
+          <h3 class="menuheader expandable">How can I create an account?</h3>
+          <ul class="categoryitems expandable">
+            <li>If you'd like to create an account on the site, please click on Register at the top right corner of the home
+              page and you'll be directed to the account creation. Follow the instructions and enter the necessary details
+              (name, email address, telephone number etc.) and set a password. You will need to have an account if you wish
+              to purchase goods from Creams of Nature, if you want to create your wish list, view and manage your orders and
+              leave a comment. You can access your account at any time to change, update or delete your details.</li>
+          </ul>
+        </div>
+        <div class="show_cl">
+          <h3 class="menuheader expandable">How can I create an account?</h3>
+          <ul class="categoryitems expandable">
+            <li>If you'd like to create an account on the site, please click on Register at the top right corner of the home
+              page and you'll be directed to the account creation. Follow the instructions and enter the necessary details
+              (name, email address, telephone number etc.) and set a password. You will need to have an account if you wish
+              to purchase goods from Creams of Nature, if you want to create your wish list, view and manage your orders and
+              leave a comment. You can access your account at any time to change, update or delete your details.</li>
+          </ul>
+        </div>
+      </div>
+      <!--Accordian=====================-->
+    
+    
+    
+    
+      <!--Tab=====================-->
+      <style>
+        ul.CompanyTabs {
+          margin: 0;
+          padding: 0;
+          float: left;
+          list-style: none;
+          height: 32px;
+          border-bottom: 1px solid #999;
+          border-left: 1px solid #999;
+          width: 100%;
+        }
+    
+        ul.CompanyTabs li {
+          float: left;
+          margin: 0;
+          padding: 0;
+          height: 31px;
+          line-height: 31px;
+          border: 1px solid #999;
+          border-left: none;
+          margin-bottom: -1px;
+          overflow: hidden;
+          position: relative;
+          background: #e0e0e0;
+        }
+    
+        ul.CompanyTabs li a {
+          text-decoration: none;
+          color: #000;
+          display: block;
+          font-size: 1.2em;
+          padding: 0 20px;
+          border: 1px solid #fff;
+          outline: none;
+        }
+    
+        ul.CompanyTabs li a:hover {
+          background: #ccc;
+        }
+    
+        html ul.CompanyTabs li.active,
+        html ul.tabs li.CompanyTabs a:hover {
+          background: #fff;
+          border-bottom: 1px solid #fff;
+        }
+    
+        .tab_container {
+          border: 1px solid #999;
+          border-top: none;
+          overflow: hidden;
+          clear: both;
+          float: left;
+          width: 100%;
+          background: #fff;
+        }
+    
+        .tab_content {
+          padding: 20px;
+          font-size: 1.2em;
+        }
+      </style>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(".tab_content").hide();
+          $("ul.CompanyTabs li:first").addClass("active");
+          $(".tab_content:first").show();
+          $("ul.CompanyTabs li").click(function () {
+            $("ul.CompanyTabs li").removeClass("active");
+            $(this).addClass("active");
+            $(".tab_content").hide();
+            var activeTab = $(this).find("a").attr("href");
+            $(activeTab).fadeIn();
+            return false;
+          });
+        });
+        function MM_jumpMenu(targ, selObj, restore) { eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'"); if (restore) selObj.selectedIndex = 0; }
+    
+      </script>
+      <ul class="CompanyTabs">
+        <li><a href="#tab1">Gallery</a></li>
+        <li><a href="#tab2">Submit</a></li>
+        <li><a href="#tab3">Submit</a></li>    
+      </ul>
+      <div class="tab_container">
+        <div id="tab1" class="tab_content">gdsgsd</div>
+        <div id="tab2" class="tab_content">
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj
+        </div>
+        <div id="tab3" class="tab_content">
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj jtgtrfj
+          jtgtrfj jtgtrfj
+        </div>
+      </div>
+      <!--Tab=====================-->                
+</body>
+
+</html>
